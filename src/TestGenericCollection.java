@@ -13,6 +13,8 @@ public class TestGenericCollection {
 		customers.add(cust1);
 		Customer cust2 = new Customer("Ringo","Starr");
 		customers.add(cust2);
+		Customer cust3 = new Customer("Man","Starr");
+		customers.add(cust3);
 		
 		Order ord1= new Order();
 		customers.add(ord1); // Compiler error
